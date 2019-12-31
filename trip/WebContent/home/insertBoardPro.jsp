@@ -20,7 +20,7 @@
 
 <body>
 	<%
-		String uploadPath = "D:\\uploadFile";
+		String uploadPath = "/home/dadang/www/uploadFile";
 
 		int maxSize = 1024 * 1024 * 10; // 한번에 올릴 수 있는 파일 용량 : 10M로 제한
 
