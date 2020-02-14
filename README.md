@@ -18,10 +18,11 @@
 주요 기능 설명
 ------
 
-- 회원가입 (추가: 이메일 인증, 아이디 중복 체크)<br>
-
-<img src="https://user-images.githubusercontent.com/59246146/73720658-d17b2900-4765-11ea-946e-ef3df9e1ccea.png" width="180px">&nbsp;&nbsp;
+- 로그인<br>
+<img src="https://user-images.githubusercontent.com/59246146/74509213-4576b780-4f44-11ea-8ced-9cdfe7419ef3.png" width="200px">&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/74509252-5f17ff00-4f44-11ea-913c-d5d15e736a47.png" width="180px">&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/74509009-ce412380-4f43-11ea-9463-fdef4057102a.png" width="180px">&nbsp;&nbsp;
 
 
  > 계정이 없을시 회원가입을 통해 계정을 만들 수 있습니다.<br>
- > .
+ > 
