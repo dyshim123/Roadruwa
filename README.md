@@ -20,9 +20,34 @@
 
 - 로그인<br>
 <img src="https://user-images.githubusercontent.com/59246146/74509213-4576b780-4f44-11ea-8ced-9cdfe7419ef3.png" width="200px">&nbsp;
-<img src="https://user-images.githubusercontent.com/59246146/74509252-5f17ff00-4f44-11ea-913c-d5d15e736a47.png" width="180px">&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/74509252-5f17ff00-4f44-11ea-913c-d5d15e736a47.png" width="250px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/74509009-ce412380-4f43-11ea-9463-fdef4057102a.png" width="180px">&nbsp;&nbsp;
 
 
+ > 로그인 모달창에서 회원 로그인과 아이디, 비밀번호 찾기가 가능합니다.<br>
+ > 회원 아이디와 핸드폰 번호를 입력하면 비밀번호를 찾을 수 있습니다.<br>
  > 계정이 없을시 회원가입을 통해 계정을 만들 수 있습니다.<br>
- > 
+ 
+ 
+ - 검색<br>
+ 
+ <검색창을 통한 검색>
+ 
+<img src="https://user-images.githubusercontent.com/59246146/74509941-06e1fc80-4f46-11ea-87ad-d96adc359fe7.png" width="400px">&nbsp;
+
+> 검색창에 검색어를 입력해 관련된 게시물을 찾을 수 있습니다.<br>
+
+<카테고리를 통한 검색>
+
+<img src="https://user-images.githubusercontent.com/59246146/74509841-c8e4d880-4f45-11ea-9bff-8154fd692744.png" width="400px">&nbsp;
+
+> 지역, 여행일수, 교통, 경비, 테마의 카테고리로 더 상세한 검색을 할 수 있습니다<br>
+
+
+- 게시글 작성<br>
+
+<img src="https://user-images.githubusercontent.com/59246146/74511628-bec4d900-4f49-11ea-9529-10c911025790.png" width="400px">&nbsp;
+
+> 소개할 여행 경로의 제목, 여행지 대표사진 3장, 여행의 테마, 지역의 정보를 입력할 수 있습니다.<br>
+> 
+
