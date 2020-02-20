@@ -36,18 +36,28 @@
 <img src="https://user-images.githubusercontent.com/59246146/74509941-06e1fc80-4f46-11ea-87ad-d96adc359fe7.png" width="400px">&nbsp;
 
 > 검색창에 검색어를 입력해 관련된 게시물을 찾을 수 있습니다.<br>
+> 관리자의 승인처리가 되지 않은 게시물은 볼 수 없습니다.<br>
 
 <카테고리를 통한 검색>
 
 <img src="https://user-images.githubusercontent.com/59246146/74509841-c8e4d880-4f45-11ea-9bff-8154fd692744.png" width="400px">&nbsp;
 
 > 지역, 여행일수, 교통, 경비, 테마의 카테고리로 더 상세한 검색을 할 수 있습니다<br>
-
+> 관리자의 승인처리가 되지 않은 게시물은 볼 수 없습니다.<br>
 
 - 게시글 작성<br>
 
 <img src="https://user-images.githubusercontent.com/59246146/74511628-bec4d900-4f49-11ea-9529-10c911025790.png" width="400px">&nbsp;
 
 > 소개할 여행 경로의 제목, 여행지 대표사진 3장, 여행의 테마, 지역의 정보를 입력할 수 있습니다.<br>
-> 
+
+
+<img src="https://user-images.githubusercontent.com/59246146/74937497-87fe2f80-542f-11ea-97ff-cb2fce48e0a8.png" width="400px">&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/74937504-8b91b680-542f-11ea-859e-1ac151ebd31b.png" width="400px">
+
+> 작성할 여행 경로의 일수에 따라 게시글 양식이 동적으로 생성됩니다.<br>
+> 여행 일수별로 여행비, 식비, 교통비, 숙박비를 입력할 수 있습니다.<br>
+> 여행 일수별로 Summernote라는 에디터를 사용하여 유연성 있는 게시글을 작성할 수 있습니다.<br>
+> 여행 일수별로 가장 추천하는 여행지의 주소를 입력하여 주소의 지도로 볼 수 있습니다.
+
 
