@@ -61,3 +61,17 @@
 > 여행 일수별로 가장 추천하는 여행지의 주소를 입력하여 주소의 지도로 볼 수 있습니다.
 
 
+- 게시글<br>
+
+ <img src="https://user-images.githubusercontent.com/59246146/75603689-3da63e00-5b14-11ea-96f3-05ff2c8fb2a4.png" width="500px">&nbsp;
+ 
+ > 여행을 대표할 사진3개와 카테고리, 제목, 작성자, 별점, 총 비용 등 여행에 대한 기본정보를 알 수 있습니다.<br><br>
+
+
+<img src="https://user-images.githubusercontent.com/59246146/75603746-ddfc6280-5b14-11ea-96be-1ed309037085.png" width="400px" height="350px">&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/75603747-dfc62600-5b14-11ea-9e14-4e78584fb196.png" width="400px" height="350px">
+ 
+ > ex) 1박 2일의 여행 게시글<br>
+ > 등록된 여행 일수별로 작성된 글을 볼 수 있습니다.<br>
+ > 처음에 1일차로 초기화 되어있으며 1일차의 추천 여행지 주소, 지도, 종류별 비용, 게시글을 볼 수 있습니다.<br>
+ > 2일차를 클릭하면 2일차의 추천 여행지 주소, 지도, 종류별 비용, 게시글을 볼 수 있습니다.
