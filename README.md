@@ -68,10 +68,17 @@
  > 여행을 대표할 사진3개와 카테고리, 제목, 작성자, 별점, 총 비용 등 여행에 대한 기본정보를 알 수 있습니다.<br><br>
 
 
-<img src="https://user-images.githubusercontent.com/59246146/75603746-ddfc6280-5b14-11ea-96be-1ed309037085.png" width="400px" height="350px">&nbsp;
-<img src="https://user-images.githubusercontent.com/59246146/75603747-dfc62600-5b14-11ea-9e14-4e78584fb196.png" width="400px" height="350px">
+<img src="https://user-images.githubusercontent.com/59246146/75622331-49f8cc80-5be2-11ea-83cc-3e81998c1cb9.png" width="400px" height="350px">&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/75622329-45ccaf00-5be2-11ea-8ecc-673aab35bb72.png" width="400px" height="350px">
  
  > ex) 1박 2일의 여행 게시글<br>
  > 등록된 여행 일수별로 작성된 글을 볼 수 있습니다.<br>
  > 처음에 1일차로 초기화 되어있으며 1일차의 추천 여행지 주소, 지도, 종류별 비용, 게시글을 볼 수 있습니다.<br>
  > 2일차를 클릭하면 2일차의 추천 여행지 주소, 지도, 종류별 비용, 게시글을 볼 수 있습니다.
+ 
+ 
+ <img src="https://user-images.githubusercontent.com/59246146/75603746-ddfc6280-5b14-11ea-96be-1ed309037085.png" width="400px" height="350px">&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/75603747-dfc62600-5b14-11ea-9e14-4e78584fb196.png" width="400px" height="350px">
+
+ > 일수별 게시글을 볼 수 있습니다.<br>
+ > 일수별로 게시글을 나누어 보기가 간편하고 자세하게 볼 수 있습니다.
