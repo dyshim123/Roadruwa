@@ -68,8 +68,8 @@
  > 여행을 대표할 사진3개와 카테고리, 제목, 작성자, 별점, 총 비용 등 여행에 대한 기본정보를 알 수 있습니다.<br><br>
 
 
-<img src="https://user-images.githubusercontent.com/59246146/75622331-49f8cc80-5be2-11ea-83cc-3e81998c1cb9.png" width="400px" height="350px">&nbsp;
-<img src="https://user-images.githubusercontent.com/59246146/75622329-45ccaf00-5be2-11ea-8ecc-673aab35bb72.png" width="400px" height="350px">
+<img src="https://user-images.githubusercontent.com/59246146/75622365-9b08c080-5be2-11ea-98a8-dd80725278ca.png" width="400px" height="350px">&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/75622366-9cd28400-5be2-11ea-94d6-3382f9543f9b.png" width="400px" height="350px">
  
  > ex) 1박 2일의 여행 게시글<br>
  > 등록된 여행 일수별로 작성된 글을 볼 수 있습니다.<br>
@@ -82,3 +82,51 @@
 
  > 일수별 게시글을 볼 수 있습니다.<br>
  > 일수별로 게시글을 나누어 보기가 간편하고 자세하게 볼 수 있습니다.
+
+
+- 쪽지<br>
+  
+  <게시글 작성자와 사용자>
+  
+<img src="https://user-images.githubusercontent.com/59246146/73817097-7f053f80-482d-11ea-8a33-a8ee93664250.png" width="200px" height="250px">&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/73816735-b6bfb780-482c-11ea-88ac-0fa7fba8453d.png" width="200px" height="250px">&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/73816941-2a61c480-482d-11ea-9c9c-39a6119cbe21.png" width="400px" height="250px">&nbsp;
+
+
+> 게시글에 대한 질문을 쪽지로 통해 게시글 작성자와 소통을 할 수 있습니다.<br>
+> 쪽지를 작성 후 마이페이지에서 보낸쪽지함을 통해 확인 할 수 있습니다.
+
+
+<관리자와 사용자>
+  
+  <img src="https://user-images.githubusercontent.com/59246146/75623584-bda0d680-5bee-11ea-870b-e168759f436a.png" width="400px" height="250px">&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/73817361-0e125780-482e-11ea-908d-9baa70e404aa.png" width="250px" height="250px">&nbsp;
+
+
+> 홈페이지에 대한 질문을 쪽지로 통해 관리자와 소통할 수 있습니다.<br>
+> 관리자에게 보낸 후 마이페이지에서 보낸쪽지함을 통해 확인할 수 있습니다.
+
+ - 댓글<br>
+ 
+ <img src="https://user-images.githubusercontent.com/59246146/74009212-1b624a00-49c6-11ea-89b3-5bae0aea64a3.png" width="400px" height="250px">&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/74009110-dc33f900-49c5-11ea-99c3-3ffefe368757.png" width="400px" height="250px">&nbsp;
+
+> 구매한 게시글의 후기와 질문을 댓글로 작성할 수 있습니다.<br>
+> 댓글의 내용, 첨부파일, 별점을 줄 수 있습니다.
+
+ - 별점<br>
+ 
+  <img src="https://user-images.githubusercontent.com/59246146/74009612-ef939400-49c6-11ea-8fe3-8de4f2496fcc.png" width="400px" height="250px">&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/74010223-51a0c900-49c8-11ea-81c0-c01c1027d441.png" width="400px" height="250px">&nbsp;
+
+> 댓글 작성에서 별점을 줄 수 있습니다.<br>
+> 별점은 1점부터 5점까지 줄 수 있습니다.
+
+
+<img src="https://user-images.githubusercontent.com/59246146/74009660-0afe9f00-49c7-11ea-871e-27576573e7e8.png" width="200px" height="150px">&nbsp;&nbsp;&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/74009560-ce32a800-49c6-11ea-8bc0-d0c081b660fb.png" width="400px" height="300px">&nbsp;
+
+> 글의 가격은 별점으로 측정됩니다.<br>
+> 글의 총 별점이 50개당 100원씩 증가합니다.<br>
+> 예를 들어 글의 총 별점이 50개 미만 0원, 50개는 100원, 100개는 200원으로 측정됩니다.<br>
+> 사용자들이 직접 읽고 별점으로 글의 가격을 매김으로써 글 가격이 합리적입니다.
