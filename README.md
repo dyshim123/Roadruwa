@@ -19,6 +19,8 @@
 ------
 
 - 로그인<br>
+
+
 <img src="https://user-images.githubusercontent.com/59246146/74509213-4576b780-4f44-11ea-8ced-9cdfe7419ef3.png" width="200px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/74509252-5f17ff00-4f44-11ea-913c-d5d15e736a47.png" width="250px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/74509009-ce412380-4f43-11ea-9463-fdef4057102a.png" width="180px">&nbsp;&nbsp;
@@ -42,14 +44,17 @@
 
 <img src="https://user-images.githubusercontent.com/59246146/74509841-c8e4d880-4f45-11ea-9bff-8154fd692744.png" width="400px">&nbsp;
 
-> 지역, 여행일수, 교통, 경비, 테마의 카테고리로 더 상세한 검색을 할 수 있습니다<br>
-> 관리자의 승인처리가 되지 않은 게시물은 볼 수 없습니다.<br>
+> 지역, 여행일수, 교통, 경비, 테마 별로 검색을 할 수 있습니다.<br>
+> 사용자가 원하는 정보를 좀 더 자세하게 검색 할 수 있습니다.<br>
+> 관리자의 승인처리가 되지 않은 게시물은 볼 수 없습니다.
 
 - 게시글 작성<br>
+(경로: 로그인 후 -> 마이페이지 -> 글쓰기)<br>
 
 <img src="https://user-images.githubusercontent.com/59246146/74511628-bec4d900-4f49-11ea-9529-10c911025790.png" width="400px">&nbsp;
 
-> 소개할 여행 경로의 제목, 여행지 대표사진 3장, 여행의 테마, 지역의 정보를 입력할 수 있습니다.<br>
+> 작성할 경로의 제목, 여행을 대표할 사진3개를 입력해 여행지의 핵심을 알 수 있습니다.<br>
+> Selectbox를 사용한 카테고리 선택, 지역, 교통을 입력할 수 있습니다.
 
 
 <img src="https://user-images.githubusercontent.com/59246146/74937497-87fe2f80-542f-11ea-97ff-cb2fce48e0a8.png" width="400px">&nbsp;
@@ -86,7 +91,7 @@
 
 - 쪽지<br>
   
-  <게시글 작성자와 사용자>
+ <게시글 작성자와 사용자>
   
 <img src="https://user-images.githubusercontent.com/59246146/73817097-7f053f80-482d-11ea-8a33-a8ee93664250.png" width="200px" height="250px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/73816735-b6bfb780-482c-11ea-88ac-0fa7fba8453d.png" width="200px" height="250px">&nbsp;
@@ -98,8 +103,9 @@
 
 
 <관리자와 사용자>
-  
-  <img src="https://user-images.githubusercontent.com/59246146/75623584-bda0d680-5bee-11ea-870b-e168759f436a.png" width="400px" height="250px">&nbsp;
+(경로: 로그인 후 -> 마이페이지 -> 쪽지 -> 관리자에게 쪽지)
+
+<img src="https://user-images.githubusercontent.com/59246146/75623584-bda0d680-5bee-11ea-870b-e168759f436a.png" width="400px" height="250px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/73817361-0e125780-482e-11ea-908d-9baa70e404aa.png" width="250px" height="250px">&nbsp;
 
 
@@ -108,7 +114,7 @@
 
  - 댓글<br>
  
- <img src="https://user-images.githubusercontent.com/59246146/74009212-1b624a00-49c6-11ea-89b3-5bae0aea64a3.png" width="400px" height="250px">&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/74009212-1b624a00-49c6-11ea-89b3-5bae0aea64a3.png" width="400px" height="250px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/74009110-dc33f900-49c5-11ea-99c3-3ffefe368757.png" width="400px" height="250px">&nbsp;
 
 > 구매한 게시글의 후기와 질문을 댓글로 작성할 수 있습니다.<br>
@@ -116,11 +122,12 @@
 
  - 별점<br>
  
-  <img src="https://user-images.githubusercontent.com/59246146/74009612-ef939400-49c6-11ea-8fe3-8de4f2496fcc.png" width="400px" height="250px">&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/74009612-ef939400-49c6-11ea-8fe3-8de4f2496fcc.png" width="400px" height="250px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/74010223-51a0c900-49c8-11ea-81c0-c01c1027d441.png" width="400px" height="250px">&nbsp;
 
 > 댓글 작성에서 별점을 줄 수 있습니다.<br>
-> 별점은 1점부터 5점까지 줄 수 있습니다.
+> 별점은 1점부터 5점까지 줄 수 있습니다.<br>
+> (자신의 글에 댓글을 달아 글 가격 올림 방지)
 
 
 <img src="https://user-images.githubusercontent.com/59246146/74009660-0afe9f00-49c7-11ea-871e-27576573e7e8.png" width="200px" height="150px">&nbsp;&nbsp;&nbsp;
@@ -131,6 +138,7 @@
 > 예를 들어 글의 총 별점이 50개 미만 0원, 50개는 100원, 100개는 200원으로 측정됩니다.<br>
 > 사용자들이 직접 읽고 별점으로 글의 가격을 매김으로써 글 가격이 합리적입니다.
 
+
 마치며
 ------
-
+학교에서 배운 과목들을 실질적으로 적용해 볼 수 있는 기회였지만 DB설계부터 모든 기능까지 직접 해야 하는만큼 처음엔 막막하고 어려웠습니다. 또한 조별 친구들과 함께 해야 했기 때문에 팀워크도 필요했습니다. 각자 수준도, 생각도 다른만큼 조율이 처음엔 힘들었지만 프로젝트를 끝낸 이 시점엔 서로에게 맞춰나가 좋은 팀워크를 이뤘고, Java, Javascript, sql문 작성, jquery 등에 대한 이해와 활용 역량이 향상되었습니다. 또한 팀장으로써 팀원들의 R&R 관리와 일정/진척관리의 중요성을 이해하는 계기가 되었습니다. 프로젝트를 통해 개발자라는 꿈에 한 걸음 나아갈 수 있었고 아직 많이 부족하지만 좀 더 나은 개발자가 되기 위해 노력하겠습니다.
