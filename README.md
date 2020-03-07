@@ -108,7 +108,7 @@ JAVA, MY-SQL, HTML5, CSS, JAVASCRIPT, JQUERY
 > 쪽지를 작성 후 마이페이지에서 보낸 쪽지함을 통해 확인할 수 있습니다.
 
 
-<관리자와 사용자>
+<관리자와 사용자><br>
 (경로: 로그인 후 -> 마이페이지 -> 쪽지 -> 관리자에게 쪽지)
 
 <img src="https://user-images.githubusercontent.com/59246146/75623584-bda0d680-5bee-11ea-870b-e168759f436a.png" width="400px" height="250px">&nbsp;
