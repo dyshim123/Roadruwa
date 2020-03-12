@@ -7,12 +7,14 @@
 --------
 이프로젝트는 여행 계획 수립시간이 부족하거나 많은 여행정보의 선택에 어려움이 있는 사람을 위한 여행 경로 공유 홈페이지입니다. 저 또한 여행하기 전에 어디로 가야 할지, 뭘 할지 선택에 어려움이 있어 주제로 선정하게 되었습니다.
 
-기술
+구현 기술
 --------
-JAVA, MY-SQL, JAVASCRIPT, JQUERY, HTML5, CSS, 
+- 사용(개발) 언어 : JAVA
+- 사용(개발)  툴 : ECLIPSE
+- DB : MY-SQL
+- 기술: JAVASCRIPT, JQUERY, HTML5, CSS, 
 
-
-프로젝트 설계 및 계획
+수행 조직
 --------
 - 팀장 심다영 /  팀원 3명 (총 4명)
 - 팀장: 데이터베이스 구축과 주요 기능 구현, 전체 구성원의 R&R을 정의, 과제 진척을 관리
@@ -20,72 +22,71 @@ JAVA, MY-SQL, JAVASCRIPT, JQUERY, HTML5, CSS,
 - 팀원1명: 포토샵 및 ppt작성
 - 주요 기능 테스트 및 품질 검토: 팀장, 교수님
 
-주요 기능 설명
+주요 기능
+------
+- 회원가입
+- 검색 (검색별 / 카테고리별)
+- 게시글 (카카오API 지도 / 우편 / 에디터(Summernote))
+- 쪽지 (사용자와 사용자 / 관리자와 사용자)
+- 댓글 (별점부여)
+
+
+상세설명
 ------
 
-- 로그인<br>
 
+<h3> 1. 회원가입
 
 <img src="https://user-images.githubusercontent.com/59246146/74509213-4576b780-4f44-11ea-8ced-9cdfe7419ef3.png" width="200px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/74509252-5f17ff00-4f44-11ea-913c-d5d15e736a47.png" width="250px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/74509009-ce412380-4f43-11ea-9463-fdef4057102a.png" width="180px">&nbsp;&nbsp;
 
+<h4>ㄱ. 설명 </h4>
 
 > 로그인 / 아이디, 비밀번호 찾기가능 <br>
 > 회원가입시 500포인트가 지급. 
  
- - 검색<br>
- 
- <검색창을 통한 검색>
+ <h3> 2. 검색<br>
  
 <img src="https://user-images.githubusercontent.com/59246146/74509941-06e1fc80-4f46-11ea-87ad-d96adc359fe7.png" width="400px">&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/74509841-c8e4d880-4f45-11ea-9bff-8154fd692744.png" width="400px">
 
-> 검색시 관리자의 승인처리가 되지 않은 게시물은 볼 수 없음<br>
+<h4>ㄱ. 설명 </h4>
+ 
+> 관리자의 승인처리가 되지 않은 게시물은 검색불가<br>
+> 지역, 여행일수, 교통, 경비, 테마 별로 검색
 
-
-<카테고리를 통한 검색>
-
-<img src="https://user-images.githubusercontent.com/59246146/74509841-c8e4d880-4f45-11ea-9bff-8154fd692744.png" width="400px">&nbsp;
-
-> 지역, 여행일수, 교통, 경비, 테마 별로 검색가능<br>
-> 관리자의 승인처리가 되지 않은 게시물은 볼 수 없음
-
-- 게시글 작성<br>
-(경로: 로그인 후 -> 마이페이지 -> 글쓰기)<br>
-
-<img src="https://user-images.githubusercontent.com/59246146/74511628-bec4d900-4f49-11ea-9529-10c911025790.png" width="400px">&nbsp;
-
-> 작성할 경로의 제목, 여행을 대표할 사진 3개를 입력가능<br>
-> Selectbox를 사용한 카테고리 선택, 지역, 교통을 입력가능
-
-
+<h3> 3. 게시글(작성)<br>
+ 
 <img src="https://user-images.githubusercontent.com/59246146/74937497-87fe2f80-542f-11ea-97ff-cb2fce48e0a8.png" width="400px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/74937504-8b91b680-542f-11ea-859e-1ac151ebd31b.png" width="400px">
+
+<h4>ㄱ. 설명 </h4>
 
 > 작성할 여행 경로의 일수에 따라 게시글 양식이 동적으로 생성<br>
 > 여행 일수별로 여행비, 식비, 교통비, 숙박비를 입력가능<br>
 > 여행 일수별로 Summernote라는 에디터를 사용하여 유연성 있는 게시글을 작성<br>
 > 여행 일수별로 가장 추천하는 여행지의 주소를 입력하여 주소의 지도로 볼 수 있음
 
-
-- 게시글<br>
+<h3> 3. 게시글(view)<br>
 
 <img src="https://user-images.githubusercontent.com/59246146/75622365-9b08c080-5be2-11ea-98a8-dd80725278ca.png" width="400px" height="350px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/75622366-9cd28400-5be2-11ea-94d6-3382f9543f9b.png" width="400px" height="350px">
  
+ <h4>ㄱ. 설명 </h4>
+ 
 > ex) 1박 2일의 여행 게시글<br>
-> 등록된 여행 일수별로 작성된 글을 볼 수 있음<br>
+> 등록된 여행 일수별로 작성<br>
 > 처음에 1일 차로 초기화되어있으며 1일 차의 추천 여행지 주소, 지도, 종류별 비용, 게시글을 볼 수 있음<br>
 > 2일 차를 클릭하면 2일 차의 추천 여행지 주소, 지도, 종류별 비용, 게시글을 볼 수 있음
  
- 
- <img src="https://user-images.githubusercontent.com/59246146/75603746-ddfc6280-5b14-11ea-96be-1ed309037085.png" width="400px" height="350px">&nbsp;
+<img src="https://user-images.githubusercontent.com/59246146/75603746-ddfc6280-5b14-11ea-96be-1ed309037085.png" width="400px" height="350px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/75603747-dfc62600-5b14-11ea-9e14-4e78584fb196.png" width="400px" height="350px">
 
  > 일수별 게시글을 볼 수 있음<br>
 
 
-- 쪽지<br>
+<h3> 4. 쪽지 <br>
   
  <게시글 작성자와 사용자>
   
@@ -93,29 +94,31 @@ JAVA, MY-SQL, JAVASCRIPT, JQUERY, HTML5, CSS,
 <img src="https://user-images.githubusercontent.com/59246146/73816735-b6bfb780-482c-11ea-88ac-0fa7fba8453d.png" width="200px" height="250px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/73816941-2a61c480-482d-11ea-9c9c-39a6119cbe21.png" width="400px" height="250px">&nbsp;
 
+<h4>ㄱ. 설명 </h4>
 
 > 게시글에 대한 질문을 쪽지보내기<br>
 > 쪽지를 작성 후 마이페이지에서 보낸 쪽지함을 통해 확인
 
 
 <관리자와 사용자><br>
-(경로: 로그인 후 -> 마이페이지 -> 쪽지 -> 관리자에게 쪽지)
 
 <img src="https://user-images.githubusercontent.com/59246146/75623584-bda0d680-5bee-11ea-870b-e168759f436a.png" width="400px" height="250px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/73817361-0e125780-482e-11ea-908d-9baa70e404aa.png" width="250px" height="250px">&nbsp;
 
+<h4>ㄱ. 설명 </h4>
 
 > 홈페이지에 대한 질문을 쪽지보내기<br>
 > 관리자에게 보낸 후 마이페이지에서 보낸 쪽지함을 통해 확인
 
- - 댓글<br>
+<h3> 5. 댓글(별점)<br>
  
 <img src="https://user-images.githubusercontent.com/59246146/74009212-1b624a00-49c6-11ea-89b3-5bae0aea64a3.png" width="400px" height="250px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/74009110-dc33f900-49c5-11ea-99c3-3ffefe368757.png" width="400px" height="250px">&nbsp;
 
-> 구매한 게시글의 후기와 질문을 댓글로 작성<br>
-> 자신의 글만 수정/삭제가 가능<br>
-> 댓글의 내용, 첨부 파일, 별점을 줄 수 있음
+<h4>ㄱ. 설명 </h4>
+
+> 구매한 게시글의 후기와 질문을 댓글로 작성가능 (자신의 글만 수정/삭제)<br>
+> 게시글의 작성자는 자신의 글에 댓글을 달 수 없음 (자신의 글에 댓글을 달아 글 가격 올림 방지)<br>
 
  - 별점<br>
 
@@ -124,7 +127,6 @@ JAVA, MY-SQL, JAVASCRIPT, JQUERY, HTML5, CSS,
 
 > 글의 가격은 별점으로 측정<br>
 > 글의 총 별점이 50개당 100원씩 증가<br>
-> 예를 들어 글의 총 별점이 50개 미만 0원, 50개는 100원, 100개는 200원으로 측정<br>
 
 
 마치며
