@@ -110,6 +110,8 @@
 <img src="https://user-images.githubusercontent.com/59246146/75603746-ddfc6280-5b14-11ea-96be-1ed309037085.png" width="400px" height="350px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/75603747-dfc62600-5b14-11ea-9e14-4e78584fb196.png" width="400px" height="350px">
 
+ <h4>ㄱ. 설명 </h4>
+  
  > 일수별 게시글을 볼 수 있음<br>
 
 <h4>ㄴ. 기능구현 설명 </h4>
