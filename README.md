@@ -5,11 +5,11 @@
 
 프로젝트 소개
 --------
-학교 졸업작품으로 계획을 짤 시간이 없거나, 많고 다양한 여행정보에 어려움을 느끼는 사람들을 위한 여행 경로 공유 홈페이지입니다. 요즘 현대인들이 바쁜 삶을 살고 있어 여행을 갈 시간이 생겨도 어떤 여행을 해야 할지, 어디를 가야 할지 시간을 내서 알아볼 수 없는 사람들이 많습니다. 또한, 시간이 많아도 결정을 할 수 없거나 여행에 대해 잘 알지 못해 어디로 가야 할지 고민인 사람들이 많습니다. 이런 사람들을 위한 여행 경로 가이드북이 있으면 좋겠다고 생각해 결정하게 되었습니다.
+이프로젝트는 여행 계획 수립시간이 부족하거나 많은 여행정보의 선택에 어려움이 있는 사람을 위한 여행 경로 공유 홈페이지입니다. 저 또한 여행하기 전에 어디로 가야 할지, 뭘 할지 선택에 어려움이 있어 주제로 선정하게 되었습니다.
 
 기술
 --------
-JAVA, MY-SQL, HTML5, CSS, JAVASCRIPT, JQUERY
+JAVA, MY-SQL, JAVASCRIPT, JQUERY, HTML5, CSS, 
 
 
 프로젝트 설계 및 계획
@@ -31,10 +31,8 @@ JAVA, MY-SQL, HTML5, CSS, JAVASCRIPT, JQUERY
 <img src="https://user-images.githubusercontent.com/59246146/74509009-ce412380-4f43-11ea-9463-fdef4057102a.png" width="180px">&nbsp;&nbsp;
 
 
-> 로그인 모달창에서 회원 로그인과 아이디, 비밀번호 찾기가 가능합니다.<br>
-> 회원 아이디와 핸드폰 번호를 입력하면 비밀번호를 찾을 수 있습니다.<br>
-> 계정이 없을 시 회원가입을 통해 계정을 만들 수 있습니다.<br>
-> 회원가입시 500포인트가 지급됩니다. 
+> 로그인 / 아이디, 비밀번호 찾기가능 <br>
+> 회원가입시 500포인트가 지급. 
  
  - 검색<br>
  
@@ -42,57 +40,49 @@ JAVA, MY-SQL, HTML5, CSS, JAVASCRIPT, JQUERY
  
 <img src="https://user-images.githubusercontent.com/59246146/74509941-06e1fc80-4f46-11ea-87ad-d96adc359fe7.png" width="400px">&nbsp;
 
-> 검색창에 검색어를 입력해 관련된 게시물을 찾을 수 있습니다.<br>
-> 관리자의 승인처리가 되지 않은 게시물은 볼 수 없습니다.<br>
+> 검색시 관리자의 승인처리가 되지 않은 게시물은 볼 수 없음<br>
+
 
 <카테고리를 통한 검색>
 
 <img src="https://user-images.githubusercontent.com/59246146/74509841-c8e4d880-4f45-11ea-9bff-8154fd692744.png" width="400px">&nbsp;
 
-> 지역, 여행일수, 교통, 경비, 테마 별로 검색을 할 수 있습니다.<br>
-> 사용자가 원하는 정보를 좀 더 자세하게 검색할 수 있습니다.<br>
-> 관리자의 승인처리가 되지 않은 게시물은 볼 수 없습니다.
+> 지역, 여행일수, 교통, 경비, 테마 별로 검색가능<br>
+> 관리자의 승인처리가 되지 않은 게시물은 볼 수 없음
 
 - 게시글 작성<br>
 (경로: 로그인 후 -> 마이페이지 -> 글쓰기)<br>
 
 <img src="https://user-images.githubusercontent.com/59246146/74511628-bec4d900-4f49-11ea-9529-10c911025790.png" width="400px">&nbsp;
 
-> 작성할 경로의 제목, 여행을 대표할 사진 3개를 입력해 여행지의 핵심을 알 수 있습니다.<br>
-> Selectbox를 사용한 카테고리 선택, 지역, 교통을 입력할 수 있습니다.
+> 작성할 경로의 제목, 여행을 대표할 사진 3개를 입력가능<br>
+> Selectbox를 사용한 카테고리 선택, 지역, 교통을 입력가능
 
 
 <img src="https://user-images.githubusercontent.com/59246146/74937497-87fe2f80-542f-11ea-97ff-cb2fce48e0a8.png" width="400px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/74937504-8b91b680-542f-11ea-859e-1ac151ebd31b.png" width="400px">
 
-> 작성할 여행 경로의 일수에 따라 게시글 양식이 동적으로 생성됩니다.<br>
-> 여행 일수별로 여행비, 식비, 교통비, 숙박비를 입력할 수 있습니다.<br>
-> 여행 일수별로 Summernote라는 에디터를 사용하여 유연성 있는 게시글을 작성할 수 있습니다.<br>
-> 여행 일수별로 가장 추천하는 여행지의 주소를 입력하여 주소의 지도로 볼 수 있습니다.
+> 작성할 여행 경로의 일수에 따라 게시글 양식이 동적으로 생성<br>
+> 여행 일수별로 여행비, 식비, 교통비, 숙박비를 입력가능<br>
+> 여행 일수별로 Summernote라는 에디터를 사용하여 유연성 있는 게시글을 작성<br>
+> 여행 일수별로 가장 추천하는 여행지의 주소를 입력하여 주소의 지도로 볼 수 있음
 
 
 - 게시글<br>
 
- <img src="https://user-images.githubusercontent.com/59246146/75603689-3da63e00-5b14-11ea-96f3-05ff2c8fb2a4.png" width="500px">&nbsp;
- 
- > 여행을 대표할 사진 3개와 카테고리, 제목, 작성자, 별점, 총비용 등 여행에 대한 기본정보를 알 수 있습니다.<br><br>
-
-
 <img src="https://user-images.githubusercontent.com/59246146/75622365-9b08c080-5be2-11ea-98a8-dd80725278ca.png" width="400px" height="350px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/75622366-9cd28400-5be2-11ea-94d6-3382f9543f9b.png" width="400px" height="350px">
  
-> 이미 구매한 게시글은 모달창없이 바로 게시글로 이동합니다.<br>
 > ex) 1박 2일의 여행 게시글<br>
-> 등록된 여행 일수별로 작성된 글을 볼 수 있습니다.<br>
-> 처음에 1일 차로 초기화되어있으며 1일 차의 추천 여행지 주소, 지도, 종류별 비용, 게시글을 볼 수 있습니다.<br>
-> 2일 차를 클릭하면 2일 차의 추천 여행지 주소, 지도, 종류별 비용, 게시글을 볼 수 있습니다.
+> 등록된 여행 일수별로 작성된 글을 볼 수 있음<br>
+> 처음에 1일 차로 초기화되어있으며 1일 차의 추천 여행지 주소, 지도, 종류별 비용, 게시글을 볼 수 있음<br>
+> 2일 차를 클릭하면 2일 차의 추천 여행지 주소, 지도, 종류별 비용, 게시글을 볼 수 있음
  
  
  <img src="https://user-images.githubusercontent.com/59246146/75603746-ddfc6280-5b14-11ea-96be-1ed309037085.png" width="400px" height="350px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/75603747-dfc62600-5b14-11ea-9e14-4e78584fb196.png" width="400px" height="350px">
 
- > 일수별 게시글을 볼 수 있습니다.<br>
- > 일수별로 게시글을 나누어 보기가 간편하고 자세하게 볼 수 있습니다.
+ > 일수별 게시글을 볼 수 있음<br>
 
 
 - 쪽지<br>
@@ -104,8 +94,8 @@ JAVA, MY-SQL, HTML5, CSS, JAVASCRIPT, JQUERY
 <img src="https://user-images.githubusercontent.com/59246146/73816941-2a61c480-482d-11ea-9c9c-39a6119cbe21.png" width="400px" height="250px">&nbsp;
 
 
-> 게시글에 대한 질문을 쪽지로 통해 게시글 작성자와 소통을 할 수 있습니다.<br>
-> 쪽지를 작성 후 마이페이지에서 보낸 쪽지함을 통해 확인할 수 있습니다.
+> 게시글에 대한 질문을 쪽지보내기<br>
+> 쪽지를 작성 후 마이페이지에서 보낸 쪽지함을 통해 확인
 
 
 <관리자와 사용자><br>
@@ -115,35 +105,26 @@ JAVA, MY-SQL, HTML5, CSS, JAVASCRIPT, JQUERY
 <img src="https://user-images.githubusercontent.com/59246146/73817361-0e125780-482e-11ea-908d-9baa70e404aa.png" width="250px" height="250px">&nbsp;
 
 
-> 홈페이지에 대한 질문을 쪽지로 통해 관리자와 소통할 수 있습니다.<br>
-> 관리자에게 보낸 후 마이페이지에서 보낸 쪽지함을 통해 확인할 수 있습니다.
+> 홈페이지에 대한 질문을 쪽지보내기<br>
+> 관리자에게 보낸 후 마이페이지에서 보낸 쪽지함을 통해 확인
 
  - 댓글<br>
  
 <img src="https://user-images.githubusercontent.com/59246146/74009212-1b624a00-49c6-11ea-89b3-5bae0aea64a3.png" width="400px" height="250px">&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/74009110-dc33f900-49c5-11ea-99c3-3ffefe368757.png" width="400px" height="250px">&nbsp;
 
-> 구매한 게시글의 후기와 질문을 댓글로 작성할 수 있습니다.<br>
-> 자신의 글만 수정/삭제가 가능합니다.
-> 댓글의 내용, 첨부 파일, 별점을 줄 수 있습니다.
+> 구매한 게시글의 후기와 질문을 댓글로 작성<br>
+> 자신의 글만 수정/삭제가 가능<br>
+> 댓글의 내용, 첨부 파일, 별점을 줄 수 있음
 
  - 별점<br>
- 
-<img src="https://user-images.githubusercontent.com/59246146/74009612-ef939400-49c6-11ea-8fe3-8de4f2496fcc.png" width="400px" height="250px">&nbsp;
-<img src="https://user-images.githubusercontent.com/59246146/74010223-51a0c900-49c8-11ea-81c0-c01c1027d441.png" width="400px" height="250px">&nbsp;
-
-> 댓글 작성에서 별점을 줄 수 있습니다.<br>
-> 별점은 1점부터 5점까지 줄 수 있습니다.<br>
-> (자신의 글에 댓글을 달아 글 가격 올림 방지)
-
 
 <img src="https://user-images.githubusercontent.com/59246146/74009660-0afe9f00-49c7-11ea-871e-27576573e7e8.png" width="200px" height="150px">&nbsp;&nbsp;&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/74009560-ce32a800-49c6-11ea-8bc0-d0c081b660fb.png" width="400px" height="300px">&nbsp;
 
-> 글의 가격은 별점으로 측정됩니다.<br>
-> 글의 총 별점이 50개당 100원씩 증가합니다.<br>
-> 예를 들어 글의 총 별점이 50개 미만 0원, 50개는 100원, 100개는 200원으로 측정됩니다.<br>
-> 사용자들이 직접 읽고 별점으로 글의 가격을 매김으로써 글 가격이 합리적입니다.
+> 글의 가격은 별점으로 측정<br>
+> 글의 총 별점이 50개당 100원씩 증가<br>
+> 예를 들어 글의 총 별점이 50개 미만 0원, 50개는 100원, 100개는 200원으로 측정<br>
 
 
 마치며
