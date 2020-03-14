@@ -167,10 +167,12 @@
 
 <h4>ㄴ. 기능구현 설명 </h4>
 <img src="https://user-images.githubusercontent.com/59246146/76680431-b71d5080-662b-11ea-93ff-704c34e459d5.png" width="400px">
+
 > 각 게시글의 ID(기본키)로 별점의 총 합계를 starsum으로 받아옴<br>
 > 게시글의 가격을 DB에 저장하기 위해서 CommentDBBean의 updatePoint메소드 적용
 
 <img src="https://user-images.githubusercontent.com/59246146/76680560-d8327100-662c-11ea-960e-27bcb23acf7b.png" width="600px">
+
 > 별점의 총 합계가 50개당 100원으로 증가시킴<br>
 > 게시글의 가격이 최대 3000원
 
