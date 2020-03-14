@@ -26,9 +26,9 @@
 ------
 - 회원가입
 - 검색 (검색별 / 카테고리별)
-- 게시글 (카카오API 지도 / 우편 / 에디터(Summernote))
+- 게시글 (카카오API 지도 / 우편 / 에디터)
 - 쪽지 (사용자와 사용자 / 관리자와 사용자)
-- 댓글 (별점부여)
+- 게시글 가격(별점으로)
 
 
 상세설명
@@ -157,14 +157,22 @@
 > 구매한 게시글의 후기와 질문을 댓글로 작성가능 (자신의 글만 수정/삭제)<br>
 > 게시글의 작성자는 자신의 글에 댓글을 달 수 없음 (자신의 글에 댓글을 달아 글 가격 올림 방지)<br>
 
- - 별점<br>
+ - 게시글 가격<br>
 
 <img src="https://user-images.githubusercontent.com/59246146/74009660-0afe9f00-49c7-11ea-871e-27576573e7e8.png" width="200px" height="150px">&nbsp;&nbsp;&nbsp;
 <img src="https://user-images.githubusercontent.com/59246146/74009560-ce32a800-49c6-11ea-8bc0-d0c081b660fb.png" width="400px" height="300px">&nbsp;
 
-> 글의 가격은 별점으로 측정<br>
-> 글의 총 별점이 50개당 100원씩 증가<br>
+> 게시글의 가격은 게시글의 총 별점으로 측정<br>
+> 게시글의 총 별점이 50개당 100원씩 증가
 
+<h4>ㄴ. 기능구현 설명 </h4>
+<img src="https://user-images.githubusercontent.com/59246146/76680431-b71d5080-662b-11ea-93ff-704c34e459d5.png" width="400px">
+> 각 게시글의 ID(기본키)로 별점의 총 합계를 starsum으로 받아옴<br>
+> 게시글의 가격을 DB에 저장하기 위해서 CommentDBBean의 updatePoint메소드 적용
+
+<img src="https://user-images.githubusercontent.com/59246146/76680560-d8327100-662c-11ea-960e-27bcb23acf7b.png" width="600px">
+> 별점의 총 합계가 50개당 100원으로 증가시킴<br>
+> 게시글의 가격이 최대 3000원
 
 마치며
 ------
